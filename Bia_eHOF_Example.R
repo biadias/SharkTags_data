@@ -22,7 +22,7 @@ y = data$number
 y = ifelse(data$number > median(y), 1, 0)
 
 #Build eHOF model
-m <- HOF(y, x, bootstrap=100) 
+m <- HOF(y, x, bootstrap = NULL) 
 m
 
 #restrict model selection between 1-5
