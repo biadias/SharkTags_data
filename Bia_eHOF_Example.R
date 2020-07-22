@@ -5,7 +5,7 @@ library(ggpubr)
 library(pals)
 library(tidyverse)
 
-load("C:/Users/bdias/Dropbox/Kisei_files/SharkTags_data/JWS_df.RData")
+load("C:/Users/Beatriz/Dropbox/A_MBAq/PAPER Bia juvenile WS range shift/Aptos_ws/0_Data/manual/JWS_df.RData")
 
 data<-JWS_df %>% 
   group_by(Temperature, id) %>% 
